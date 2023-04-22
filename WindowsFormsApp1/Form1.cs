@@ -28,9 +28,9 @@ namespace WindowsFormsApp1
             float.TryParse(priceTextBox.Text, out price);
             total_fuel = dist / 100 * cons;
             total_price = total_fuel * price;
-            gallonsLabel.Text = $"Gallons used: {total_fuel}";
+            gallonsLabel.Text = $"Gallons used: {total_fuel} gal";
             gallonsLabel.ForeColor = Color.FromArgb(255, 255, 0, 0);
-            costLabel.Text = $"Total cost: ${total_price}";
+            costLabel.Text = $"Total cost: {total_price} $";
             costLabel.ForeColor = Color.FromArgb(255, 255, 0, 0);
         }
     }
