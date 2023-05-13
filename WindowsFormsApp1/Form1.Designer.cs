@@ -31,12 +31,7 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Exams";
-
-
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.distanceLabel = new System.Windows.Forms.Label();
             this.distanceTextBox = new System.Windows.Forms.TextBox();
             this.mpgLabel = new System.Windows.Forms.Label();
@@ -46,83 +41,103 @@ namespace WindowsFormsApp1
             this.calculateButton = new System.Windows.Forms.Button();
             this.gallonsLabel = new System.Windows.Forms.Label();
             this.costLabel = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-
-            this.BackColor = Color.FromArgb(255, 80, 120, 255);
-            this.ForeColor = Color.White;
-            this.Font = new Font("ubuntu", 12, FontStyle.Bold);
-
+            // 
             // distanceLabel
-            this.distanceLabel.AutoSize = true;
-            this.distanceLabel.Location = new System.Drawing.Point(12, 15);
+            // 
+            resources.ApplyResources(this.distanceLabel, "distanceLabel");
             this.distanceLabel.Name = "distanceLabel";
-            this.distanceLabel.Size = new System.Drawing.Size(82, 13);
-            this.distanceLabel.TabIndex = 0;
-            this.distanceLabel.Text = "Distance (miles):";
-
+            // 
             // distanceTextBox
-            this.distanceTextBox.Location = new System.Drawing.Point(100, 12);
+            // 
+            resources.ApplyResources(this.distanceTextBox, "distanceTextBox");
             this.distanceTextBox.Name = "distanceTextBox";
-            this.distanceTextBox.Size = new System.Drawing.Size(100, 20);
-            this.distanceTextBox.TabIndex = 1;
-
+            // 
             // mpgLabel
-            this.mpgLabel.AutoSize = true;
-            this.mpgLabel.Location = new System.Drawing.Point(12, 41);
+            // 
+            resources.ApplyResources(this.mpgLabel, "mpgLabel");
             this.mpgLabel.Name = "mpgLabel";
-            this.mpgLabel.Size = new System.Drawing.Size(82, 13);
-            this.mpgLabel.TabIndex = 2;
-            this.mpgLabel.Text = "MPG (miles/gal):";
-
+            // 
             // mpgTextBox
-            this.mpgTextBox.Location = new System.Drawing.Point(100, 38);
+            // 
+            resources.ApplyResources(this.mpgTextBox, "mpgTextBox");
             this.mpgTextBox.Name = "mpgTextBox";
-            this.mpgTextBox.Size = new System.Drawing.Size(100, 20);
-            this.mpgTextBox.TabIndex = 3;
+            // 
             // priceLabel
-            this.priceLabel.AutoSize = true;
-            this.priceLabel.Location = new System.Drawing.Point(12, 67);
+            // 
+            resources.ApplyResources(this.priceLabel, "priceLabel");
             this.priceLabel.Name = "priceLabel";
-            this.priceLabel.Size = new System.Drawing.Size(75, 13);
-            this.priceLabel.TabIndex = 4;
-            this.priceLabel.Text = "Price (dollars):";
+            
+            // 
             // priceTextBox
-            this.priceTextBox.Location = new System.Drawing.Point(100, 64);
+            // 
+            resources.ApplyResources(this.priceTextBox, "priceTextBox");
             this.priceTextBox.Name = "priceTextBox";
-            this.priceTextBox.Size = new System.Drawing.Size(100, 20);
-            this.priceTextBox.TabIndex = 5;
-
+            // 
             // calculateButton
-            this.calculateButton.Location = new System.Drawing.Point(100, 90);
+            // 
+            resources.ApplyResources(this.calculateButton, "calculateButton");
+            this.calculateButton.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(100, 23);
-            this.calculateButton.TabIndex = 6;
-            this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
-            calculateButton.ForeColor = Color.WhiteSmoke;
-            calculateButton.FlatStyle = FlatStyle.Popup;
-
+            // 
             // gallonsLabel
-            this.gallonsLabel.AutoSize = true;
-            this.gallonsLabel.Location = new System.Drawing.Point(12, 132);
+            // 
+            resources.ApplyResources(this.gallonsLabel, "gallonsLabel");
             this.gallonsLabel.Name = "gallonsLabel";
-            this.gallonsLabel.Size = new System.Drawing.Size(84, 13);
-            this.gallonsLabel.TabIndex = 7;
-            this.gallonsLabel.Text = "Gallons used: 0";
-
+            // 
             // costLabel
-            this.costLabel.AutoSize = true;
-            this.costLabel.Location = new System.Drawing.Point(12, 158);
+            // 
+            resources.ApplyResources(this.costLabel, "costLabel");
             this.costLabel.Name = "costLabel";
-            this.costLabel.Size = new System.Drawing.Size(66, 13);
-            this.costLabel.TabIndex = 8;
-            this.costLabel.Text = "Total cost: $0";
-
-            // MainForm
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            // 
+            // button4
+            // 
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.free_icon_ukraine_552041;
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.free_icon_russia_551878;
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.free_icon_france_300016;
+            this.button2.Name = "button2";
+            this.button2.TabStop = false;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.free_icon_uk_flag_2412363;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Form1
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 194);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(255)))));
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.costLabel);
             this.Controls.Add(this.gallonsLabel);
             this.Controls.Add(this.calculateButton);
@@ -132,10 +147,11 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.mpgLabel);
             this.Controls.Add(this.distanceTextBox);
             this.Controls.Add(this.distanceLabel);
-            this.Name = "MainForm";
-            this.Text = "Fuel Calculator";
+            this.ForeColor = System.Drawing.Color.Black;
+            this.Name = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
         private Label distanceLabel;
         private TextBox distanceTextBox;
@@ -147,6 +163,11 @@ namespace WindowsFormsApp1
         private Label gallonsLabel;
         private Label costLabel;
         #endregion
+
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
     }
 }
 
