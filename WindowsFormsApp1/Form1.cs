@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,6 +33,35 @@ namespace WindowsFormsApp1
             gallonsLabel.ForeColor = Color.FromArgb(255, 255, 0, 0);
             costLabel.Text = $"Total cost: {total_price} $";
             costLabel.ForeColor = Color.FromArgb(255, 255, 0, 0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ChangeLang("");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ChangeLang("fr");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ChangeLang("ru");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ChangeLang("uk");
+        }
+        private void ChangeLang(string lang)
+        {
+            ComponentResourceManager manager = new ComponentResourceManager(typeof(Form1));
+            CultureInfo culture = new CultureInfo(lang);
+            foreach(Control item in this.Controls)
+            {
+                manager.ApplyResources(item, item.Name, culture);
+            }
         }
     }
 }

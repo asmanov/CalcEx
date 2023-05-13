@@ -118,16 +118,80 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="free-icon-russia-551878" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\free-icon-russia-551878.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="distanceLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="free-icon-uk-flag-2412363" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\free-icon-uk-flag-2412363.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="distanceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
   </data>
-  <data name="free-icon-france-300016" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\free-icon-france-300016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="distanceLabel.Text" xml:space="preserve">
+    <value>Distance (km):</value>
   </data>
-  <data name="free-icon-ukraine-552041" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\free-icon-ukraine-552041.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="distanceTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 17</value>
+  </data>
+  <data name="mpgLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mpgLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="mpgLabel.Text" xml:space="preserve">
+    <value>KPL (100km/liter):</value>
+  </data>
+  <data name="mpgTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 57</value>
+  </data>
+  <data name="priceLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="priceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="priceLabel.Text" xml:space="preserve">
+    <value>Price (euros):</value>
+  </data>
+  <data name="priceTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 97</value>
+  </data>
+  <data name="calculateButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="calculateButton.Text" xml:space="preserve">
+    <value>Calculer</value>
+  </data>
+  <data name="gallonsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gallonsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="gallonsLabel.Text" xml:space="preserve">
+    <value>Liters used: 0</value>
+  </data>
+  <data name="costLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="costLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="costLabel.Text" xml:space="preserve">
+    <value>coût total: 0</value>
+  </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>
